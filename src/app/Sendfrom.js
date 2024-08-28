@@ -13,19 +13,19 @@ export default function Sendfrom () {
 
         console.log(formvlu)
 
-        // axios.post('https://react-interview.1putym.easypanel.host/api/product', {
-        //      title : "Example product",
-        //     stock : "50",
-        //     price : "6500",
-        //     email : "srka780@gmail.com",
-        //     discount : "500"
-        // })
-        //   .then(function (response) {
-        //     console.log(response);
-        //   })
-        //   .catch(function (error) {
-        //     console.log(error);
-        //   });
+        axios.post('https://react-interview.1putym.easypanel.host/api/product', {
+             title : "Example product",
+            stock : "50",
+            price : "6500",
+            email : "srka780@gmail.com",
+            discount : "500"
+        })
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
 
 
     }
